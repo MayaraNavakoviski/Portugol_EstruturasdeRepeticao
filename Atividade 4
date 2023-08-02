@@ -1,0 +1,24 @@
+programa
+{
+funcao inicio()
+
+  {
+    inteiro base
+    inteiro expoente
+
+    escreva("Me informe o primeiro número: " , "\n")
+    leia(base)
+
+    inteiro resultado = base
+
+     escreva("Me informe o segundo número: " , "\n")
+     leia(expoente)
+
+     para(inteiro i = 1; i < expoente ; i++)
+     {
+        resultado = resultado * base
+
+     }
+         escreva("O resultado da potencia dos números informados é " , resultado , ".")
+  }
+}
