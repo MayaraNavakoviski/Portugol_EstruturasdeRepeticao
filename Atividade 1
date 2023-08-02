@@ -1,0 +1,22 @@
+programa
+{
+
+    funcao inicio()
+   {
+      inteiro A = 80000
+      inteiro B = 200000
+
+      real taxaA = 0.03
+      real taxaB = 0.015
+
+      inteiro anos
+
+      para(anos = 0; A <= B; anos++)
+       {
+          A = A + (A*taxaA)
+          B = B + (B*taxaB)
+
+       }
+        escreva("Leverá " , anos ," anos, para que a cidade A iguale a cidade B em questão de população. " , "\n")
+   }
+}
