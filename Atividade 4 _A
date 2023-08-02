@@ -1,0 +1,31 @@
+{
+	
+	funcao inicio()
+	{
+		inteiro base
+		inteiro expoente
+			
+		escreva("Me informe o primeiro número: " , "\n")
+		leia(base)
+
+		escreva("Me informe o segundo número: " , "\n")
+		leia(expoente)
+
+		potencia(base, expoente)
+	}
+	funcao potencia(inteiro base, inteiro expoente ){
+		
+inteiro resultado = base
+
+		se(expoente == 0){
+			escreva("1")
+			}	
+		
+			senao{
+			para(inteiro desespero = 1; desespero < expoente; desespero++){
+				resultado = resultado * base
+				}			
+				escreva("O resultado da potencia é " , resultado)
+				}
+	}	
+}
