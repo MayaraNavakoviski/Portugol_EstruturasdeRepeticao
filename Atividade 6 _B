@@ -8,7 +8,7 @@ programa
 		inteiro num_anterior = 0
 		inteiro resposta
 
-		escreva("Me informe até qual termo você gostaria de ver: " , "\n")
+		escreva("Me informe até qual termo você gostaria de procurar: " , "\n")
 		leia(resposta)
 		limpa()
 		
