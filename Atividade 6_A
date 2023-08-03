@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro termo 
+		inteiro sequencia = 1
+		inteiro num_anterior = 0
+
+		para(termo = 0; termo <= 500; termo = num_anterior + sequencia){
+			escreva(termo , "\n")
+
+			num_anterior = sequencia
+			sequencia = termo
+		}
+	}
+}
