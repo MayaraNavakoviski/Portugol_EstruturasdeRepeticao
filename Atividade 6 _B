@@ -1,0 +1,32 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro termo 
+		inteiro sequencia = 1
+		inteiro num_anterior = 0
+		inteiro resposta
+
+		escreva("Me informe até qual termo você gostaria de ver: " , "\n")
+		leia(resposta)
+		limpa()
+		
+
+			para(termo = 0; termo <= resposta; termo = num_anterior + sequencia){
+			
+			escreva(termo , "\n")
+
+			num_anterior = sequencia
+			sequencia = termo
+
+			    se(termo == resposta){
+			    pare
+		         }
+
+		     }
+
+		escreva("\n")
+	     escreva("Você encontrou seu número.")
+	}
+}
